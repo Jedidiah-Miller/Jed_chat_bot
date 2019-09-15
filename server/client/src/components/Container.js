@@ -19,6 +19,8 @@ export default function AppContainer() {
 const styles = {
   container: {
     padding: '5% 1px',
-    minHeight: '100vh'
+    minWidth: '100%',
+    minHeight: '100vh',
+    // backgroundColor: 'rgb(168,177,184)'
   }
 }
