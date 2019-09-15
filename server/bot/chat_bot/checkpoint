@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/jed/Documents/Projects/jed_chat_bot/server/server/chat_bot/model.tflearn"
+all_model_checkpoint_paths: "/Users/jed/Documents/Projects/jed_chat_bot/server/server/chat_bot/model.tflearn"

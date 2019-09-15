@@ -1,0 +1,39 @@
+{ "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "sup", "what's up"],
+      "responses": ["hi", "hello", "sup", "what's up", "Sup, how can I help?"],
+      "context_set" : ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["goodbye", "later", "bye"],
+      "responses": ["later skater", "see you later aligator"],
+      "context_set" : ""
+    },
+    {
+      "tag": "age",
+      "patterns": ["how old", "how old are you", "what is your age"],
+      "responses": ["I am 22 years old"],
+      "context_set" : ""
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "whats your name", "what should I call you"],
+      "responses": ["Jedidiah, or Jed for short"],
+      "context_set" : ""
+    },
+    {
+      "tag": "experience",
+      "patterns": [
+        "how many years of experience do you have programming",
+        "how long have you been programming"
+      ],
+      "responses": [
+        "a little more than two years",
+        "I started programming in 2017"
+      ],
+      "context_set" : ""
+    }
+  ]
+}
