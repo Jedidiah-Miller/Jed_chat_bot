@@ -7,6 +7,10 @@ from django.views.decorators.csrf import csrf_exempt, ensure_csrf_cookie
 # @ensure_csrf_cookie
 @csrf_exempt
 def send_message(request):
+  '''
+  take the message from the request body and give it to the chat bot
+  in order to generate a response
+  '''
 
   if request.method != 'POST':
     print('that was weird')
