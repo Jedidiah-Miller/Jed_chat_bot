@@ -15,7 +15,7 @@ Markdown==3.1.1
 mccabe==0.6.1
 nltk==3.4.4
 numpy==1.17.0
-Pillow==6.1.0
+Pillow==6.2.0
 pipenv==2018.11.26
 protobuf==3.9.1
 pygame==1.9.6
